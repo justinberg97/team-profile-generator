@@ -1,3 +1,10 @@
+const internTemplate = intern => {
+    return `
+    <div>
+    
+    `
+}
+
 const engineerTemplate = engineer => {
     return `
     <div>
@@ -24,4 +31,4 @@ const managerTemplate = manager => {
 
 }
 
-module_exports = {engineerTemplate, managerTemplate}
+module.exports = {engineerTemplate, managerTemplate}
