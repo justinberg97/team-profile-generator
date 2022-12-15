@@ -24,6 +24,6 @@ test('Can set email in engineer object', () => {
 
 
 test('Can get github from getGitHub() method', () => {
-    const engineer = new Engineer("Justin", 13, "justin@gmail.com")
-    expect(engineer.getName()).toBe("Justin")
+    const engineer = new Engineer("Justin", 13, "justin@gmail.com", "Justin")
+    expect(engineer.getGitHub()).toBe("Justin")
 })

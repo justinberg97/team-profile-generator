@@ -25,6 +25,6 @@ test('Can set email in manager object', () => {
 
 
 test('Can get role from getRole() method', () => {
-    const manager = new Manager("Justin", 13, "justin@gmail.com",)
-    expect(manager.getName()).toBe("")
+    const manager = new Manager("Justin", 13, "justin@gmail.com" )
+    expect(manager.getRole()).toBe("Manager")
 })

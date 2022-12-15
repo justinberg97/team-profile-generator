@@ -25,6 +25,6 @@ test('Can set email in employee object', () => {
 
 
 test('Can get school from getSchool() method', () => {
-    const intern = new Intern("Justin", 13, "justin@gmail.com")
+    const intern = new Intern("Justin", 13, "justin@gmail.com", "Justin")
     expect(intern.getSchool()).toBe("Justin")
 })
