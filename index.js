@@ -162,6 +162,9 @@ function createHTML(teamArr) {
     if (teamMember.getRole() === "Engineer") {
         htmlMain = htmlMain + templates.engineerTemplate(teamMember);
       }
+      if (teamMember.getRole() === "Intern") {
+        htmlMain = htmlMain + templates.internTemplate(teamMember);
+      }
   });
   return htmlMain;
 }
